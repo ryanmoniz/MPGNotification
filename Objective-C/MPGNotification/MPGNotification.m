@@ -773,7 +773,7 @@ static const CGFloat kColorAdjustmentLight = 0.35;
         [[[[UIApplication sharedApplication] delegate] window] setWindowLevel:UIWindowLevelStatusBar+1];
         
         // add the notification to the screen
-        [window.subviews.lastObject addSubview:self];
+        [window.subviews.firstObject addSubview:self];
         
     }
     
